@@ -5,6 +5,9 @@
   "devDependencies": {
     "axios-mock-adapter": "^1.20.0",
     "enzyme": "^3.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "npm-run-all": "^4.1.5",
     "redux-mock-store": "^1.5.4"
   },
@@ -47,13 +50,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
